@@ -1,0 +1,14 @@
+.button {
+    cursor: pointer;
+    
+    .reversed {
+        color: #aaa;
+        .active {
+            color: white;
+        }
+    }
+    .active{
+       color: black;
+    } 
+    color: #ccc
+}

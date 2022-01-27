@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -25,6 +26,12 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
+
+          <link href="/editor"></link>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Editor &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
